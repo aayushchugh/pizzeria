@@ -8,6 +8,7 @@ const productSchema = new Schema({
 	size: [{ type: String, required: true }],
 	toppings: [{ type: String, required: true }],
 	sauces: [{ type: String, required: true }],
+	additions: [{ type: String, required: true }],
 	image: { type: Object, required: true },
 });
 

@@ -5,6 +5,7 @@ const userSchema = new Schema({
 	fname: { type: String, required: true },
 	lname: { type: String, required: true },
 	email: { type: String, required: true },
+	phone: { type: Number, required: true },
 	password: { type: String, required: true },
 	orders: [{ type: Schema.Types.ObjectId, ref: Order }],
 });

@@ -12,6 +12,7 @@ Delicious food in reasonable price
 -   Search
 -   Offer list
 -   Todays specials
+-   admin panel
 
 ## Routes
 
@@ -24,6 +25,7 @@ Delicious food in reasonable price
 -   /search
 -   /checkout
 -   /contact-us
+-   /admin
 
 ## Tech Stack
 

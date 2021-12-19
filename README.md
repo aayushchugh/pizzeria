@@ -84,6 +84,8 @@ To run this project, you will need to add the following environment variables to
 
 `REACT_APP_API_KEY`
 
+`JWT_SECRET`
+
 ## Run Locally
 
 cd to root directory

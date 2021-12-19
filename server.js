@@ -4,6 +4,8 @@ import app from './app.js';
 
 config();
 
-mongoose.connect(`${process.env.MONGO_URI}`, () => {
-	app.listen(process.env.PORT || 8000);
+const PORT = process.env.PORT || 8000;
+
+mongoose.connect(`${process.env.DB_URI}`, () => {
+	app.listen(PORT);
 });

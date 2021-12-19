@@ -79,7 +79,10 @@ Install dependencies for client
 To run this project, you will need to add the following environment variables to your .env file
 
 `DB_URL`
-`PORT`
+
+`API_KEY`
+
+`REACT_APP_API_KEY`
 
 ## Run Locally
 

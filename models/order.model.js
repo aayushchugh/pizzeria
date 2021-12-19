@@ -1,11 +1,11 @@
-import { Schema, Model } from 'mongoose';
-import { default as Product } from './product.model.js';
-import { default as User } from './users.model.js';
+import mongoose from 'mongoose';
 
-const orderSchema = new Schema({
-	user: { type: Schema.Types.ObjectId, ref: User },
-	products: [{ type: Schema.Types.ObjectId, ref: Product }],
+const orderSchema = new mongoose.Schema({
+	user: { type: mongoose.SchemaTypes.ObjectId, ref: 'User' },
+	products: [{ type: mongoose.SchemaTypes.ObjectId, ref: 'Product' }],
 	status: { type: String, required: true },
 });
 
-export default Model('Order', orderSchema);
+const Order = mongoose.model('Order', orderSchema);
+
+export default Order;

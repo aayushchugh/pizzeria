@@ -28,7 +28,7 @@
 	},
 	"rules": {
 		"semi": "error",
-		"no-console": "warn",
+		"no-console": "error",
 		"no-tabs": "off",
 		"indent": "off",
 		"node/handle-callback-err": "error",

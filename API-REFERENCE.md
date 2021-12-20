@@ -6,16 +6,16 @@ in this page
 
 **⚠️ Api key must be there in `Authorization` header in every request.**
 
-## Status Codes
+## Http status codes
 
-| Code  | Description           |
-| :---- | :-------------------- |
-| `200` | OK                    |
-| `201` | Created               |
-| `400` | Bad Request           |
-| `403` | Forbidden             |
-| `409` | Conflict              |
-| `500` | Internal Server Error |
+| Status code | Description           |
+| :---------- | :-------------------- |
+| `200`       | OK                    |
+| `201`       | Created               |
+| `400`       | Bad Request           |
+| `403`       | Forbidden             |
+| `409`       | Conflict              |
+| `500`       | Internal Server Error |
 
 ## Auth
 
@@ -40,13 +40,13 @@ POST: /api/auth/signup
 
 **Response:**
 
-| Code   | message                                    | reason                              |
-| :----- | :----------------------------------------- | :---------------------------------- |
-| `201`  | User created successfully                  | if request was successful           |
-| `400`  | Please fill in all fields                  | if any filed in body is missing     |
-| `400`  | Password and Confirm Password do not match | password and cpassword are not same |
-| `409 ` | Email or phone already exists              | User already exists in Data Base    |
-| `500 ` | Internal server error                      | Internal server error               |
+| status code | message                                    | reason                              |
+| :---------- | :----------------------------------------- | :---------------------------------- |
+| `201`       | User created successfully                  | if request was successful           |
+| `400`       | Please fill in all fields                  | if any filed in body is missing     |
+| `400`       | Password and Confirm Password do not match | password and cpassword are not same |
+| `409 `      | Email or phone already exists              | User already exists in Data Base    |
+| `500 `      | Internal server error                      | Internal server error               |
 
 _User created successfully `201`:_
 
@@ -65,35 +65,5 @@ _User created successfully `201`:_
 		"__v": 0
 	},
 	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbmFtZSI6IkF5dXNoIiwibG5hbWUiOiJDaHVnaCIsImVtYWlsIjoiYXl1c2hjaHVnaDIwMDZAZ21haWwuY29tIiwicGhvbmUiOjk4NzY1NDMxLCJvcmRlcnMiOltdLCJpYXQiOjE2Mzk5OTI5NDl9.BXUTUJIHTsX9DNn-0jfs-imI-GqkT5S8ZCEpBlytNmA"
-}
-```
-
-_Please fill in all fields `400`:_
-
-```json
-{
-	"success": false,
-	"message": "Please fill in all fields",
-	"data": {}
-}
-```
-
-_Password and Confirm Password do not match `400`_
-
-```json
-{
-	"success": false,
-	"message": "Password and Confirm Password do not match",
-	"data": {}
-}
-```
-
-_email or phone already exists_
-
-```json
-{
-	"success": false,
-	"message": "Email or phone already exists",
-	"data": {}
 }
 ```

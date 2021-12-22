@@ -35,7 +35,7 @@
 		"prettier-eslint": "^13.0.0"
 	},
 	"engines": {
-		"node": "16.x.x",
+		"node": "17.x.x",
 		"yarn": "1.x.x"
 	}
 }

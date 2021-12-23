@@ -5,7 +5,7 @@
 Delicious food in reasonable price
 
 ![Codacy Badge](https://api.codacy.com/project/badge/Grade/793141134a224f9685b797ec5a9cb0ff)
-![Heroku](https://pyheroku-badge.herokuapp.com/?app=pizzeriia&style=flat)
+[![Heroku](https://pyheroku-badge.herokuapp.com/?app=pizzeriia&style=flat)](https://pizzeriia.herokuapp.com/)
 
 ## Features
 

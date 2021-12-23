@@ -5,9 +5,7 @@ in this page
 -   [Signp](#signup)
 -   [Login](#login)
 
-**⚠️ Api key must be there in `x-api-key` header in every request.**
-
-## Http status codes
+## Http status codes used in this API
 
 | Status code | Description           |
 | :---------- | :-------------------- |
@@ -17,6 +15,18 @@ in this page
 | `401`       | Unauthorized          |
 | `409`       | Conflict              |
 | `500`       | Internal Server Error |
+
+**⚠️ Api key must be there in `x-api-key` header in every request.**
+
+_invalid api key response_
+
+```json
+{
+	"success": false,
+	"message": "Invalid API key",
+	"data": {}
+}
+```
 
 ## Auth
 

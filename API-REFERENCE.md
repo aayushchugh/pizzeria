@@ -106,7 +106,7 @@ _User created successfully `200`:_
 		"email": "ayushchugh2006@gmail.com",
 		"phone": 98765431,
 		"password": "$2b$10$q0Hlqu6PE8GMDDkqHRmBgOTNc8.AKpI9gMF8TdNkooX/q3x16CQdq",
-		"orders": [],password and cpassword are not same
+		"orders": [],
 		"__v": 0
 	},
 	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYzQ1ZWVlYTA2OTQ2OGYxMmMwNzhhYSIsImlhdCI6MTY0MDI2MDg2MH0.-0N2tYca6cnU-_tY_-wDwYX2iVTmkf-3_dsgY3lLDb4"

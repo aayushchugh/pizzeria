@@ -1,11 +1,11 @@
 # Pizzeria
 
-
 ![Logo](./client/public/images/logo/logo-icon.png)
 
 Delicious food in reasonable price
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/793141134a224f9685b797ec5a9cb0ff)](https://app.codacy.com/gh/aayushchugh/pizzeria?utm_source=github.com&utm_medium=referral&utm_content=aayushchugh/pizzeria&utm_campaign=Badge_Grade_Settings)
+![Heroku](https://pyheroku-badge.herokuapp.com/?app=pizzeriia&style=flat-square)
 
 ## Features
 

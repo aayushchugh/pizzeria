@@ -107,7 +107,7 @@ export const login = async (req, res) => {
 		if (!isPasswordCorrect) {
 			return res.status(401).json({
 				success: false,
-				message: 'Password is incorrect',
+				message: 'Incorrect Password',
 				data: {},
 			});
 		}

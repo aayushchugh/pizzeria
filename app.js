@@ -9,7 +9,7 @@ const app = express();
 /* ------------------------------- middlewares ------------------------------ */
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(apiAuth);
+app.use('/api', apiAuth);
 
 /* --------------------------------- routes --------------------------------- */
 app.use('/api', authRouter);

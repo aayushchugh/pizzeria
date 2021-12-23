@@ -59,11 +59,11 @@ _User created successfully `201`:_
 		"lname": "Chugh",
 		"email": "ayushchugh2006@gmail.com",
 		"phone": 98765431,
-		"password": "$2b$10$jQ54fNR4RgibDzGo3Uz.vu47m443GfXiO5exSvYv1E8kVjl6l8io6",
+		"password": "$2b$10$q0Hlqu6PE8GMDDkqHRmBgOTNc8.AKpI9gMF8TdNkooX/q3x16CQdq",
 		"orders": [],
-		"_id": "61c04e7526963727aee933d8",
+		"_id": "61c45eeea069468f12c078aa",
 		"__v": 0
 	},
-	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbmFtZSI6IkF5dXNoIiwibG5hbWUiOiJDaHVnaCIsImVtYWlsIjoiYXl1c2hjaHVnaDIwMDZAZ21haWwuY29tIiwicGhvbmUiOjk4NzY1NDMxLCJvcmRlcnMiOltdLCJpYXQiOjE2Mzk5OTI5NDl9.BXUTUJIHTsX9DNn-0jfs-imI-GqkT5S8ZCEpBlytNmA"
+	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYzQ1ZWVlYTA2OTQ2OGYxMmMwNzhhYSIsImlhdCI6MTY0MDI1OTMxMH0.wrLOMeEzUDunR5ladDrggHnSrQvcuzjxYnSiNXAk3kM"
 }
 ```

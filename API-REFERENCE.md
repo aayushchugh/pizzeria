@@ -3,6 +3,7 @@
 in this page
 
 -   [Signp](#signup)
+-   [Login](#login)
 
 **⚠️ Api key must be there in `Authorization` header in every request.**
 

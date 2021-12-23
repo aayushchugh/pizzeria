@@ -5,7 +5,7 @@ in this page
 -   [Signp](#signup)
 -   [Login](#login)
 
-**⚠️ Api key must be there in `Authorization` header in every request.**
+**⚠️ Api key must be there in `x-api-key` header in every request.**
 
 ## Http status codes
 

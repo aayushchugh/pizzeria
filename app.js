@@ -1,5 +1,6 @@
 import express from 'express';
 import path from 'path';
+import apiAuth from './middlewares/apiAuth.js';
 
 import authRouter from './routes/auth.routes.js';
 
@@ -8,6 +9,7 @@ const app = express();
 /* ------------------------------- middlewares ------------------------------ */
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(apiAuth);
 
 /* --------------------------------- routes --------------------------------- */
 app.use('/api', authRouter);
